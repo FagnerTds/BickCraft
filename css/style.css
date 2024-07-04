@@ -1,5 +1,6 @@
 @import"./global/global.css";
 @import"./global/header.css";
+@import"./global/footer.css";
 
 /* utilidades */
 @import"./utilidades/componentes.css";
@@ -11,6 +12,7 @@
 @import"./home/tecnologia.css";
 @import"./home/parceiros.css";
 @import"./home/depoimento.css";
+@import"./home/seguro.css";
 
 /* bicicletas */
 @import"./bicicletas/bicicletas-lista.css";
