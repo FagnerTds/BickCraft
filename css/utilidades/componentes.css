@@ -17,6 +17,17 @@
   font: 600 1.125/1.35 "Poppings",sans-serif;
 
 }
+.link{
+  display: block;
+  color: var(--cor-p1);
+  font-family:500 1.5rem/1.5 "Poppings";
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.link:hover{
+  color: var(--cor-0);
+}
 @media(max-width:600px){
   .botao{
     padding: 12px 16px;
