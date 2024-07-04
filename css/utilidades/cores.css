@@ -58,9 +58,6 @@
 .cor-12{
   color: var(--cor-12);
 }
-.cor-p1{
-  color: var(--cor-p1);
-}
 .cor-2{
   color: var(--cor-2);
 }
@@ -72,4 +69,19 @@
 }
 .cor-5{
   color: var(--cor-5);
+}
+.cor-p1{
+  color: var(--cor-p1);
+}
+.cor-p2{
+  color: var(--cor-p2);
+}
+.cor-p3{
+  color: var(--cor-p3);
+}
+.cor-p4{
+  color: var(--cor-p4);
+}
+.cor-p5{
+  color: var(--cor-p5);
 }
