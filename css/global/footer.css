@@ -11,7 +11,7 @@
   margin-bottom: 32px;
 }
 .footer ul{
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 .footer li +li{
   margin-top: 20px;
@@ -19,4 +19,20 @@
 .footer-redes{
   display: flex;
   gap: 20px;
+}
+.footer p{
+  grid-column: 1/-1;
+}
+.footer a:hover{
+  color: var(--cor-0);
+}
+@media(max-width:800px){
+  .footer-marca{
+    display: none;
+  }
+}
+@media(max-width:500px){
+  .footer{
+    grid-template-columns: 1fr;
+  }
 }

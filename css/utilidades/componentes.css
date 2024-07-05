@@ -21,11 +21,10 @@
   background: linear-gradient(#ffb60d, #e59317);
 }
 .secundario{
-  padding: 16px 32px;
+  padding: 16px 22px;
   display: inline-block;
   background: var(--cor-10);
   border-radius: 4px;
-  box-shadow: 0px 1px 2px regb(0,0,0,.1);
   color: var(--cor-4);
   text-transform: uppercase;
   font: 600 1.125/1.35 "Poppings",sans-serif;
