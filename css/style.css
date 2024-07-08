@@ -12,7 +12,6 @@
 @import"./home/tecnologia.css";
 @import"./home/parceiros.css";
 @import"./home/depoimento.css";
-@import"./home/seguro.css";
 
 /* bicicletas */
 @import"./bicicletas/bicicletas-lista.css";
@@ -21,4 +20,8 @@
 /* termos */
 @import"./termos/termos.css";
 
+/* Seguros */
+@import"./seguros/seguro.css";
+@import"./seguros/vantagens.css";
+@import"./seguros/perguntas.css";
 
