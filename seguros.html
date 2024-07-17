@@ -6,11 +6,13 @@
   <meta name="description" content="Seguros para você">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Seguros | Bickcraft</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/style.css.min.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="seguros">
@@ -38,7 +40,7 @@
 
     <div class="seguro container">
 
-      <div class="seguro-prata">
+      <div data-anime="200" class="seguro-prata fadeInLeft">
         <h3 class=" font-1-xl cor-6">PRATA</h3>
         <span class="font-1-xl cor-0 ">R$199 <span class="font-1-xs cor-6 ">mensal</span></span>
         <ul class="font-2-m cor-0">
@@ -50,7 +52,7 @@
         <a class=" secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
       </div>
 
-      <div class="seguro-prata">
+      <div data-anime="200" class="seguro-prata fadeInRight">
         <h3 class=" font-1-xl cor-p1">OURO</h3>
         <span class="font-1-xl cor-0 ">R$299 <span class="font-1-xs cor-6 ">mensal</span></span>
         <ul class="font-2-m cor-0">
@@ -179,6 +181,7 @@
     </div>
 
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 

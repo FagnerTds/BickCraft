@@ -3,7 +3,8 @@ const links = document.querySelectorAll(".header-menu a");
 function fixar(pegar) {
   const href = pegar.href;
   const url = document.location.href;
-  if (url.includes(href)) {
+  if (url.includes(href) &&matchMedia('(min-width:900px)').matches) {
+    
     pegar.classList.add("ativo");
   }
 }
@@ -32,5 +33,23 @@ function ativarPergunta(event) {
 function eventosPerguntas(pergunta) {
   pergunta.addEventListener("click", ativarPergunta);
 }
-
 perguntas.forEach(eventosPerguntas);
+
+//Troca de imagens na pagina bicicltas
+const imagens= document.querySelectorAll('.bicicleta-imagens img');
+const galeria= document.querySelector('.bicicleta-imagens');
+function alterar(event){
+  const img =event.currentTarget;
+  const media = matchMedia('(min-width:900px)').matches;
+  if(media);
+  galeria.prepend(img);
+}
+function clicarTroca(imagem){
+  imagem.addEventListener('click',alterar);
+}
+imagens.forEach(clicarTroca);
+
+//Animação
+if(window.SimpleAnime){
+  new SimpleAnime();
+}
